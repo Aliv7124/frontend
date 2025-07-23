@@ -7,7 +7,7 @@ import Home from './Home';
 import About from './About';
 import Login from './Login';
 import Signup from './Signup';
-import NoteState from './Context/Notes/noteState';
+import NoteState from './Context/Notes/NoteState';
 
 /*
 function App() {
