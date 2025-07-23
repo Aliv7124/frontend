@@ -34,7 +34,7 @@ function Login(props) {
     if (Object.keys(validationErrors).length > 0) return;
 
     try {
-      const res = await fetch('https://inotebook-backend-k14d.onrender.com/api/auth/login', {
+      const res = await fetch('https://inotebook-backend-3o0e.onrender.com/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
