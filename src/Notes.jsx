@@ -25,8 +25,8 @@ const handleChange = (e) => {
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (!token) {
-      props.showAlert("Please login first", "warning");
-      navigate("/login");
+      props.showAlert("Please Signup first", "warning");
+      navigate("/signup");
     } else {
       getnote();
     }
