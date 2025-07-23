@@ -35,7 +35,7 @@ const NoteState = (props) => {
     } catch (error) {
       console.error("Fetch notes error:", error.message);
     }
-  };
+   };
   // Edit note
   const editnote = async (id, title, description, tag) => {
     try {
